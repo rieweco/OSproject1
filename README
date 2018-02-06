@@ -51,6 +51,15 @@ Committer: Cody Riewerts <o2-riewerts@hoare7.cs.umsl.edu>
         new file:   testsim.c
 -------------------------------------------------
 
+ Committer: Cody Riewerts <o2-riewerts@hoare7.cs.umsl.edu>
+
+ On branch master
+ Changes to be committed:
+   (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Makefile
+-------------------------------------------------
+
 
 
 
