@@ -36,3 +36,26 @@ Committer: Cody Riewerts <o2-riewerts@hoare7.cs.umsl.edu>
 
        new file:   runsim.c
 --------------------------------------------------
+
+ Committer: Cody Riewerts <o2-riewerts@hoare7.cs.umsl.edu>
+
+ On branch master
+ Changes to be committed:
+   (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Makefile
+        new file:   makeargv.c
+        new file:   makeargv.h
+        modified:   runsim.c
+        new file:   testing.data
+        new file:   testsim.c
+-------------------------------------------------
+
+
+
+
+
+
+
+
+
