@@ -44,7 +44,7 @@ int makeargv(char *s, char *delimiters, char ***argvp)
 			}
 			else
 			{
-				**argvp = NUL;
+				**argvp = NULL;
 				free(t);
 			}
 		}

@@ -1,14 +1,14 @@
 #	MAKEFILE
-CFLAGS = -g -Wall -Wshadow
+CFLAGS = -g -Wall -Wshadow -o
 GCC = gcc $(CFLAGS)
-SRCS = runsim.c makeargv.c testsim.c
-OBJS = $(SRCS:%.c=%.o)
 
-proc_fan: $(OBJS)
-	$(GCC) $(OBJS) -o proc_fan
+all: runsim testsim
 
-.c.o:
-	$(GCC) $(CFLAGS) -c $*.c
+runsim: runsim.c makeargv.c
+	$(GCC) $(CFLAGS) runsim runsim.c makeargv.c
+
+testsim: testsim.c
+	$(GCC) $(CFLAGS) testsim testsim.c
 
 clean:
-	rm -f *.o a.out proc_fan
+	rm -f *.o runsim testsim
